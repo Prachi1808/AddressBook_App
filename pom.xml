@@ -8,11 +8,11 @@
         <version>2.7.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>Addressbookspring</artifactId>
+    <groupId>com.server</groupId>
+    <artifactId>firstspringapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Addressbookspring</name>
-    <description>Addressbookspring backend</description>
+    <name>FirstSpringApp</name>
+    <description>FirstSpringApp</description>
     <properties>
         <java.version>11</java.version>
     </properties>
