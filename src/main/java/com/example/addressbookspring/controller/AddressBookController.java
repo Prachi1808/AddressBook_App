@@ -19,7 +19,6 @@ import java.util.List;
         /**
          * post mapping request method to create contact
          * adding an employee and saving to DB using post mapping and taking the input by RequestBody
-         *
         */
         @PostMapping("/adding")
         public ResponseEntity<ResponseDTO> createEmployee(@Valid @RequestBody AddressBookDTO addressBookDTO) {
@@ -28,8 +27,8 @@ import java.util.List;
             return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
         }
 
-        /**getting all the employee and showing in a list form from the DB using get mapping
-         * */
+        /**getting all the employee and showing in a list from the DB using get mapping
+         */
         @GetMapping("/showall")
         public ResponseEntity<ResponseDTO> getAllEmployees() {
             ResponseDTO responseDTO = new ResponseDTO("Employee List shown Bellow", iAddressBookService.getAddressBook());
